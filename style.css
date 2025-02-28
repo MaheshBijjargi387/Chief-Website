@@ -1,0 +1,634 @@
+.hero {
+    width: 100vw;
+    height: 1040px;
+    background-image: url("https://kitpro.site/cooky/wp-content/uploads/sites/164/2023/05/minimalist-scandinavian-kitchen-interior-after-ren-2022-12-16-09-25-30-utc2.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.hero-container {
+    height: 45%;
+}
+
+.hero-card {
+    background: rgba(255, 255, 255, 0.279) !important;
+    transition: 0.3s !important;
+}
+
+.hero-card:hover {
+    background: white !important;
+}
+
+
+button {
+    background-color: #BC997E !important;
+    /* Bootstrap Primary Blue */
+    color: white !important;
+    border: none;
+    padding: 15px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s !important;
+}
+
+.hero-button:hover {
+    background: rgba(255, 255, 255, 0.322) !important;
+}
+
+button:hover {
+    background-color: white !important;
+    /* Darker shade on hover */
+    color: black !important;
+}
+
+#logo {
+    height: 70px;
+    width: 10%;
+
+}
+
+.contant p {
+    font-size: 25px;
+    font-weight: 900;
+
+}
+
+.contant h1 {
+    font-weight: 700;
+    font-size: 100px;
+}
+
+.contant h2 {
+    font-size: 100px;
+    font-weight: 200;
+}
+
+/* Mobile (up to 767px) */
+@media (max-width: 767px) {
+    .hero {
+        height: 1700px;
+    }
+
+    .hero-img {
+        padding: 20px;
+    }
+
+    #logo {
+        height: 35px;
+        width: 35%;
+    }
+
+    .button-icon {
+        height: 2px;
+        width: 1px;
+    }
+
+    .contant p {
+        font-size: 15px;
+        font-weight: 900;
+
+    }
+
+    .contant h1 {
+        font-weight: 700;
+        font-size: 30px;
+    }
+
+    .contant h2 {
+        font-size: 30px;
+        font-weight: 200;
+    }
+
+}
+
+/* Tablet (768px to 991px) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+    /* Styles for tablets */
+    #logo {
+        height: 40px;
+        width: 18%;
+    }
+
+    .contant p {
+        font-size: 25px;
+        font-weight: 900;
+
+    }
+
+    .contant h1 {
+        font-weight: 700;
+        font-size: 50px;
+    }
+
+    .contant h2 {
+        font-size: 60px;
+        font-weight: 200;
+    }
+
+}
+
+
+/* hero css is end */
+
+
+
+
+
+
+
+
+
+.Online-Class {
+    height: 70vh;
+}
+
+.Online-Class-2 {
+    background-image: url("https://kitpro.site/cooky/wp-content/uploads/sites/164/2023/05/circle4-1024x1024.png");
+    background-position: left bottom;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    position: relative;
+
+}
+
+.Online-Class-img-1 {
+    position: relative;
+}
+
+.Online-Class-img-2 {
+    position: absolute;
+    left: 0;
+
+
+}
+
+.Online-Class-1 h2 {
+    font-size: 70px;
+    font-weight: 600;
+
+}
+
+
+@media (max-width: 767px) {
+    .Online-Class-1 {
+        text-align: center;
+    }
+
+    .Online-Class-1 h2 {
+        font-size: 35px;
+        font-weight: 600;
+
+
+    }
+
+    .Online-Class-1 p {
+        font-size: 15px;
+        margin-top: 10px !important;
+
+
+
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .Online-Class-1 h2 {
+        font-size: 40px;
+        font-weight: 600;
+
+
+    }
+
+    .Online-Class-1 p {
+        font-size: 20px;
+        margin-top: 50px !important;
+    }
+
+}
+
+
+
+@media (min-width: 992px) {
+    .Online-Class p {
+        margin-right: 85px;
+    }
+
+
+}
+
+
+
+/* Online-Class end */
+
+
+
+
+.CulinaryCourse {
+    height: auto;
+    ;
+
+}
+
+.CulinaryCourse-1 {
+    background-image: url("https://kitpro.site/cooky/wp-content/uploads/sites/164/2023/05/circle3-1024x1018.png");
+    background-position: right bottom;
+    background-repeat: no-repeat;
+    background-size: 300%;
+
+
+
+}
+
+.CulinaryCourse-2 h2 {
+    font-size: 70px;
+    font-weight: 600;
+
+}
+
+
+@media (max-width: 767px) {
+    .CulinaryCourse-2 {
+        text-align: center;
+    }
+
+    .CulinaryCourse-2 h2 {
+        font-size: 35px;
+        font-weight: 600;
+
+
+    }
+
+    .CulinaryCourse-2 p {
+        font-size: 15px;
+        margin-top: 10px !important;
+
+
+
+    }
+
+    .CulinaryCourse {
+        margin-top: 360px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .CulinaryCourse-2 h2 {
+        font-size: 40px;
+        font-weight: 600;
+
+
+    }
+
+    .CulinaryCourse-2 p {
+        font-size: 20px;
+        margin-top: 50px !important;
+    }
+
+}
+
+
+
+@media (min-width: 992px) {
+    .CulinaryCourse p {
+        margin-right: 85px;
+    }
+
+
+
+}
+
+
+/* Culinary  Course endeed */
+
+
+
+.Our-Cooking-Class {
+    height: auto;
+    /* Adjust height to auto */
+    /* Adjust margin to create space */
+    padding-top: 50px;
+
+    background-image: url("https://kitpro.site/cooky/wp-content/uploads/sites/164/2023/05/top-view-of-platter-with-healthy-raw-vegetable-sti-2022-01-19-00-11-48-utc-copy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+
+@media (max-width: 767px) {
+
+    .Our-Cooking-Class-containt h2 {
+        font-size: 30px;
+
+    }
+
+}
+
+
+.Our-Cooking-Class-containt h2 {
+    font-size: 70px;
+    font-weight: 600;
+}
+
+.CulinaryCourse {
+    height: auto;
+    margin-top: 50px; 
+    padding-bottom: 50px; 
+}
+
+.Our-Cooking-Class {
+    height: auto;
+    margin-top: 50px; 
+    padding-top: 50px; 
+    background-image: url("https://kitpro.site/cooky/wp-content/uploads/sites/164/2023/05/top-view-of-platter-with-healthy-raw-vegetable-sti-2022-01-19-00-11-48-utc-copy.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+@media (max-width: 767px) {
+    .CulinaryCourse {
+        margin-top: 20px; 
+    }
+
+    .Our-Cooking-Class {
+        margin-top: 20px; 
+    }
+
+    .Our-Cooking-Class-containt h2 {
+        font-size: 30px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+    .CulinaryCourse {
+        margin-top: 30px; 
+    }
+
+    .Our-Cooking-Class {
+        margin-top: 30px; 
+    }
+
+    .Our-Cooking-Class-containt h2 {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 992px) {
+    .CulinaryCourse p {
+        margin-right: 85px;
+    }
+
+    .Our-Cooking-Class-containt h2 {
+        font-size: 70px;
+        font-weight: 600;
+    }
+}
+
+
+.Cook-Them-All{
+    padding-top: 100px ;
+    
+    background-image: url('https://kitpro.site/cooky/wp-content/uploads/sites/164/2023/05/circle4-1024x1024.png');
+    background-position: left bottom;
+    background-repeat: no-repeat;   
+    background-size: 100%;
+    
+}
+.Cook-Them-All h3{
+    font-size: 70px;
+    font-weight: 600;
+}
+
+@media (max-width: 767px){
+    .Cook-Them-All h3{
+        font-size: 30px;
+        font-weight: 600;
+    }
+    .Cook-Them-All{
+        background-size: 200%;
+    }
+
+}
+@media (min-width: 768px) and (max-width: 991px){
+    .Cook-Them-All h3{
+        font-size: 40px;
+        font-weight: 600;
+    }
+}
+
+.Our-Associate-containt h2{
+    font-size: 70px;
+    font-weight: 600;
+}
+.Our-Associate-containt p{
+    font-size: 20px;
+}
+
+@media (max-width: 767px){
+    .Our-Associate-containt{
+        text-align: center;
+    }
+    .Our-Associate-containt h2{
+        font-size: 40px;
+        font-weight: 600;
+    }
+    .Our-Associate-containt p{
+        font-size: 15px;
+    
+
+}
+
+
+.Etiam-vita img{
+    padding-left: 80px;
+}
+
+
+}
+
+
+.Best-Culinary-Course{
+    height: auto;
+    background-image: url('https://kitpro.site/cooky/wp-content/uploads/sites/164/2023/05/minimalist-scandinavian-kitchen-interior-after-ren-2022-12-16-09-25-30-utc-copy8a.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+  
+
+  .Best-Culinary-Course-containt{
+    padding: 70px;
+  }
+  .Best-Culinary-Course-containt h3{
+    font-size: 50px;
+    font-weight: 600;
+  }
+
+
+  @media (max-width: 767px){
+    .Best-Culinary-Course-containt{
+        padding: 50px;
+      }
+      .Best-Culinary-Course-containt h3{
+        font-size: 30px;
+        font-weight: 600;
+      }
+
+  }
+
+  .News-Blog{
+    margin-top: 50px;
+  }
+
+  .News-Blog h3{
+    font-size: 70px;
+    font-weight: 600;
+  }
+  .News-Blog p{
+    font-size: 18px;
+  }
+
+
+ .user-form{
+    height: auto;
+    background-image: url('https://kitpro.site/cooky/wp-content/uploads/sites/164/2023/05/kitchen-utensils-on-a-background-of-a-white-brick-2021-08-27-19-09-54-utc-copy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 200%;
+    
+ }
+ .user-form p{
+    font-size: 15px;
+ }
+
+ .user-form-new form h2{
+    font-size: 50px;
+ }
+ .user-form-new form{
+    background-color:#eaeaeb;
+ }
+ .user-form-new form{
+    padding: 50px;
+ }
+ @media (max-width: 767px){
+    
+    .user-form-new form h2{
+        font-size: 30px;
+     }
+     .user-form-new form{
+        padding: 30px;
+     }
+
+ }
+
+.some-para p{
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.project-end{
+    text-align: center;
+    background-color: #202020;;
+}
+
+.project-end-container1 img{
+    margin-top: 100px;
+    height: 100px;
+    width: 200px;
+}
+.project-end-container1 p{
+    margin-top: 20px;
+}
+.project-end-container2{
+    margin-top: 100px;
+
+}
+.project-end-container2 h4{
+    margin-top: 100px;
+}
+.project-end-container3 h4{
+    margin-top: 100px;
+}
+
+.project-end-container4 h4{
+    margin-top: 100px;
+}
+
+.Get-In-Touch{
+    height: 30px;
+    
+
+}
+
+@media (max-width: 767px){
+    .project-end-container2 h4{
+        margin-top: 10px;
+    }
+    .project-end-container3 h4{
+        margin-top: 10px;
+    }
+    
+    .project-end-container4 h4{
+        margin-top: 10px;
+    }
+    .CulinaryCourse{
+        margin-top: 250px;
+    }
+    .News-Blog-card{
+        margin-top: 20px;
+    }
+
+}
+
+@media (min-width: 768px) and (max-width: 991px){
+    .News-Blog-card{
+        margin-top: 20px;
+    }
+
+}
+
+
+
+
+.hero-about{
+    height: 100vh;
+    
+    background-image: url('https://kitpro.site/cooky/wp-content/uploads/sites/164/2023/05/ripe-vegetables-on-kitchen-counter-in-light-kitche-2022-12-16-20-10-36-utc-copy.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us-hero-containt h2{
+    font-size: 100px;
+    font-weight: 600;
+    margin-bottom: 50px;
+
+}
+
+
+
+@media (max-width: 767px){
+    .about-us-hero-containt h2{
+        font-size: 50px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    
+    }
+   
+}
